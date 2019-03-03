@@ -1,0 +1,205 @@
+@import 'https://fonts.googleapis.com/css?family=Bitter';
+/* selecting all elements to reset poistions */
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+
+    background: whitesmoke;
+    color: #67727A;
+    font-family: 'Bitter', sans-serif;
+    margin: 0;
+
+}
+
+h2 {
+    font-size: 250%;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 2%;
+}
+
+h3 {
+font-size: 175%;
+line-height: 155%;
+padding: 5% 0;
+font-weight: 400;
+
+}
+
+p{
+    font-size: 160%;
+    line-height: 150%;
+    padding: 3%;
+    text-indent: 2%;
+    text-align: justify;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin-bottom: -4px;
+
+}
+/*Head Image*/
+.lead {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.1%;
+    width: 57%;
+    
+    
+  }
+  #banner-inner{
+    background-color: #EEEED2;
+    max-width: 1350px;
+    margin: 0 auto;
+  }
+
+header {
+    background-color:#EEEED2;
+    width:100%;
+    height: 86px;
+}
+
+#header-inner{
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+/*-------Navigation----*/
+nav{
+    float:right;
+    padding: 25px 20px 0 0;
+
+}
+#menu-icon{
+    display: hidden;
+    width: 40px;
+    height: 40px;
+    background: url(auto-automobile-car-845405.jpg);
+}
+
+a:hover#menu-icon {
+    border-radius: 4px 4px 0 0;
+}
+ul{
+    list-style-type: none;
+}
+nav ul li{
+    font-size: 150%;
+    display:inline-block;
+    float: left;
+    padding: 10px;
+}
+nav ul li a {
+    color: rgba(121, 192, 233, 0.788);
+    text-decoration: none;
+}
+nav ul li a:hover {
+color: #c3d7df;
+}
+.current {
+    color: #00adf1;
+}
+
+.one-fourth{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+#html{
+    background-color: #F1aa90;
+}
+#css{
+    background-color: #beb9ad;
+}
+#javascript{
+    background-color: #aadcd2;
+}
+#node{
+    background-color: #adb2c1;
+}
+
+.one-fourth i {
+    color: #f0f0f0;
+    font-size: 500%;
+    padding: 13% 0 4 0;
+}
+
+#header-inner i{
+    color: #0a96f3;
+    font-size: 400%;
+    padding: 2% 0 4% 0;
+}
+.inner-wrapper{
+    float: left;
+    width: 100%;
+    background-color: white;
+}
+.lead2 {
+    float: left;
+    width: 60%;
+    padding: 0 50% 0 0;
+    }
+
+article{
+    float: right;
+    margin: 0 auto;
+    height: auto;
+
+}
+.inner-wrapper2{
+    float: left;
+    width: 100%;
+    background-color: #C4E4E1; 
+}
+.lead3 {
+    float: right;
+    width: 70%;
+    padding: 0 8% 0 0;
+    }
+
+
+/*----footer---*/
+footer{
+    background-color: #6991ac;
+    width: 100%;
+}
+
+.social{
+    list-style-type: none;
+    text-align: center;
+}
+
+.social li {
+    display: inline;
+}
+
+.social i {
+    font-size: 460%;
+    margin: 1%;
+    padding: 5% 5% 5% 4%;
+    color: #c3d7df;
+
+}
+.social i:hover{
+    color: #f5f5f5;
+
+}
+footer.second{
+    border-top:1px solid #AADCD2;
+    background-color: #544b59;
+    max-height: 55px;
+    text-align: center;
+    margin: 0;
+}
+footer.second p{
+    padding: 5px 9px 0;
+    text-align: center;
+}
